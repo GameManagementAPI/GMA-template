@@ -1,0 +1,12 @@
+builders:
+  - c4vxl
+
+displayItem: IRON_SWORD
+
+team:
+  0:
+    spawn: [-66, 11, 0, -90, 0]
+    prefix: "<gold><b>Team 1</b></gold>"
+  1:
+    spawn: [67, 11, 0, 90, 0]
+    prefix: "<gold><b>Team 2</b></gold>"

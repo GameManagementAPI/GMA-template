@@ -1,0 +1,30 @@
+config:
+  prefix: <gray>[</gray><green>Lobby</green><gray>]</gray>
+  send-welcome-message: true
+  
+  lobby:
+    boost-cooldown: 5
+    boost-strength: 2.2
+    tp-cooldown: 3
+    
+    # The style of signs
+    # Variables available: $size
+    game-signs:
+      line0: <aqua>===============</aqua>
+      line1: <gray>Join a game</gray>
+      line2: <gold>$size</gold>
+      line3: <aqua>===============</aqua>
+  
+  queue:
+    team-selection-item: WHITE_BANNER
+    map-voting-item: MAP
+    leave-item: OAK_DOOR
+game:
+  spawn:
+    ==: org.bukkit.Location
+    world: world
+    x: 0.5
+    y: 1.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 90.0
