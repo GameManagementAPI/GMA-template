@@ -44,4 +44,6 @@ bin/
 ### Mac OS ###
 .DS_Store
 
-### Server ###
+### Project specific ###
+run/
+downloadGMA.sh
