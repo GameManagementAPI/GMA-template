@@ -22,7 +22,7 @@ download() {
     curl -L -o "run/plugins/$NAME" "$2"
 }
 
-repos="GameManager GameLobby"
+repos="GameManager GameLobby GameStats"
 for repo in $repos; do
     download "$repo" "$(url "$repo" "$repo")"
 done

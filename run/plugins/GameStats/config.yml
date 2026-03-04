@@ -1,0 +1,21 @@
+config:
+  # Directory for database
+  db-path: ./stats/
+
+# Hologram config
+hologram:
+  lines:
+  - winrate
+  - totalgames
+  - losses
+  - wins
+  - _sep
+  - _your_stats
+  loc:
+    ==: org.bukkit.Location
+    world: world
+    x: -3.5
+    y: 1.0
+    z: -4.5
+    pitch: 24.6812
+    yaw: 43.32045
