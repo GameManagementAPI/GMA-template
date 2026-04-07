@@ -45,5 +45,5 @@ bin/
 .DS_Store
 
 ### Project specific ###
-# run/
+run/
 downloadGMA.sh
